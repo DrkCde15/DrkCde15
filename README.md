@@ -64,7 +64,3 @@
 </div>
 
 ###
-
-<img src="https://raw.githubusercontent.com/DrkCde15/DrkCde15/output/snake.svg" alt="Snake animation" />
-
-###
