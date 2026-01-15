@@ -2,16 +2,15 @@ name: Commit Day Moment
 
 on:
   schedule:
-    - cron: "0 7 * * *" # Every day at 7AM
-  workflow_dispatch: 
+    - cron: "0 7 * * *" # Roda às 4h da manhã no Brasil
+  workflow_dispatch: # Isso faz o botão "Run workflow" reaparecer
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Update GitHub Stats
-        uses: thanhhaudev/github-stats@v1.3.1
+        uses: thanhhaudev/github-stats@v1.3.1 # Repositório base
         with:
           COMMIT_USER_NAME: DrkCde15
           COMMIT_USER_EMAIL: jcesarsantana215@gmail.com
