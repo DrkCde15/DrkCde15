@@ -12,6 +12,6 @@ jobs:
       - name: Update GitHub Stats
         uses: thanhhaudev/github-stats@v1.3.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Adicione esta linha aqui!
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COMMIT_USER_NAME: DrkCde15
           COMMIT_USER_EMAIL: jcesarsantana215@gmail.com
