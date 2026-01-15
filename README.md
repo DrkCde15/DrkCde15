@@ -13,3 +13,7 @@
 </div>
 
 # 🕒 Programming Statistics:
+
+![User Stats](images/userstats.svg)
+
+![Top Languages](images/languages.svg)
